@@ -1,41 +1,31 @@
-🏦 Banking Chatbot – Smart Virtual Assistant for Financial Services
-Description:
+🏦 Banking Chatbot – Project Description
+This is an AI-based Banking Chatbot that can handle basic banking-related queries, simulate transactions, and assist users through a simple web interface.
 
-The Banking Chatbot is an AI-powered virtual assistant designed to simplify and secure your financial interactions. It provides 24/7 support for customers, automating routine banking tasks and enhancing user experience through instant, accurate, and personalized responses.
+📁 File Descriptions
+Chatbot_train.py
+Trains the chatbot using the data in the data folder. The trained result is saved as db.sqlite.
 
+Chatbot.py
+Uses the trained db.sqlite to generate responses to user queries.
 
-💡 Key Features:
-🔍 Account Inquiries – Check balances, view recent transactions, and get account summaries in real time.
+server.py
+Acts as a backend server that processes user input and returns chatbot responses.
 
-💸 Fund Transfers – Assist with secure money transfers between accounts or to other beneficiaries.
+index.html
+Provides the web-based chat interface for users to interact with the chatbot.
 
-📅 Bill Payments & Reminders – Pay utility bills and set reminders for upcoming payments.
+requirements.txt
+Lists all the required Python packages needed to run the project.
 
-🔐 Fraud Alerts & Security Advice – Notify users of suspicious activities and provide tips for staying secure.
+▶️ How to Run the Project
+Download or clone the project to your local machine.
 
-📈 Financial Guidance – Offer insights on savings, budgeting, loans, and investments.
+Install the required Python packages listed in requirements.txt.
 
-🤖 Natural Conversation – Interact in natural language with human-like responsiveness.
+Navigate to the Chatbot_Project directory.
 
-🌍 Multi-language Support – Help users in their preferred languages (optional).
+Run the server using python server.py.
 
+Open index.html in your browser (right-click → open with browser).
 
-
-🛡️ Security & Compliance:
-End-to-end encrypted communication
-
-Multi-factor authentication integration
-
-GDPR & PCI-DSS compliant architecture
-
-
-
-🎯 Benefits:
-Reduces workload on human agents
-
-Speeds up customer service response times
-
-Increases customer satisfaction and engagement
-
-Enhances financial literacy among users
-
+You’ll see the chatbot interface where you can start the conversation and test its functionality.
