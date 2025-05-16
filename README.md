@@ -3,6 +3,7 @@ Description:
 
 The Banking Chatbot is an AI-powered virtual assistant designed to simplify and secure your financial interactions. It provides 24/7 support for customers, automating routine banking tasks and enhancing user experience through instant, accurate, and personalized responses.
 
+
 💡 Key Features:
 🔍 Account Inquiries – Check balances, view recent transactions, and get account summaries in real time.
 
@@ -18,12 +19,16 @@ The Banking Chatbot is an AI-powered virtual assistant designed to simplify and 
 
 🌍 Multi-language Support – Help users in their preferred languages (optional).
 
+
+
 🛡️ Security & Compliance:
 End-to-end encrypted communication
 
 Multi-factor authentication integration
 
 GDPR & PCI-DSS compliant architecture
+
+
 
 🎯 Benefits:
 Reduces workload on human agents
